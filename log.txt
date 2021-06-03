@@ -8,3 +8,12 @@ __________________________
 TODO: continue MOOSE-BABBLER tutorial
 - left off on peacock
 
+2 June 2021
+- uploading docs via terminal commands to git repo:
+
+/your/repo/directory
+$ git add -f your_file.txt
+$ git commit -m "Add existing file"
+$ git push origin git/branch 
+
+
