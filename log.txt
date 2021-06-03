@@ -1,0 +1,10 @@
+*** log tracking tasks ***
+__________________________
+
+29 May 2021
+- learned basics of Git
+- created sjcavazos/babbler in Github
+- redefined peacock PATH in .bashrc file
+TODO: continue MOOSE-BABBLER tutorial
+- left off on peacock
+
