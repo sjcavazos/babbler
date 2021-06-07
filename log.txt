@@ -7,6 +7,7 @@ __________________________
 - redefined peacock PATH in .bashrc file
 TODO: continue MOOSE-BABBLER tutorial
 - left off on peacock
+***
 
 2 June 2021
 - uploading docs via terminal commands to git repo:
@@ -18,3 +19,13 @@ $ git push origin git/branch
 
 - created problems directory 
 TODO: Part 2, demonstration, input file
+***
+
+6 June 2021
+- MOOSE complete syntax:
+https://mooseframework.inl.gov/syntax/index.html
+- established the input file
+- PETSc: https://epubs.siam.org/doi/book/10.1137/1.9781611976311
+- EXODUS format
+- completed diffusion problem
+TODO: experiment with Executioner
