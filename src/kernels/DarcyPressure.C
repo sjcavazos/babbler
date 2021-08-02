@@ -42,6 +42,9 @@ DarcyPressure::DarcyPressure(const InputParameters & parameters)
     //_permeability(0.8451e-09),
     //_viscosity(7.98e-04)
 {
+  // check that viscosity value is not zero
+  if (_viscosity == 0)
+    paramError("viscosity", "The viscosity must be a non-zero number.");
 }
 
 ADRealVectorValue
