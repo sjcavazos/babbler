@@ -20,11 +20,16 @@
 []
 
 [Kernels]
-	[diffusion]
-		type = DarcyPressure # Zero-gravity, divergence-free form of Darcys Law
-		variable = pressure # operating on the "pressure" variable
-		permeability = 0.8451e-09 # (m^2) assumed permeability of the porous medium
-	[]
+  [diffusion]
+    type = DarcyPressure # Zero-gravity, divergence-free form of Darcys law
+    variable = pressure # Operate on the "pressure" variable from above
+  []
+[]
+
+[Materials]
+  [filter]
+    type = PackedColumn # Provides permeability and viscosity of water through packed 1mm spheres
+  []
 []
 
 [BCs]
@@ -53,4 +58,5 @@
 
 [Outputs]
 	exodus = true # Output Exodus format
+	perf_graph = true # Prints performance report to terminal
 []
